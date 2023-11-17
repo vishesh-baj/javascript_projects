@@ -21,6 +21,12 @@ class Container {
     return document.createElement(this.nodeType);
   }
 }
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+}
 
 class Todos {
   allTodos = [];
@@ -98,6 +104,6 @@ class Todos {
   }
 }
 
-const todoApp = new App([new Todos().render()]);
+const todoApp = new App([new Todos().render()], "<h1>I am awesome</h1>");
 
 todoApp.init();

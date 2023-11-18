@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+nav h1 {
+  font-size: 2rem;
+}
+
+main {
+  padding: 2rem 1rem;
+  width: 75%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+section input {
+  padding: 12px 6px;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1 px solid teal;
+}
+
+section button {
+  padding: 12px 6px;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: aquamarine;
+}
+
+section button:hover {
+  background-color: aqua;
+}
+
+aside {
+  width: 75%;
+  margin: 0px auto;
+  margin-top: 1rem;
+  border-radius: 12px;
+  padding: 1rem 0.5rem;
+}
+
+aside section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+aside section div {
+  background-color: aqua;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+}
+
+aside section div button {
+  background-color: teal;
+  color: aqua;
+}
+
+aside section div button:hover {
+  background-color: aquamarine;
+  color: white;
+}

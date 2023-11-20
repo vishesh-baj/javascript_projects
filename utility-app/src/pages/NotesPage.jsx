@@ -1,6 +1,5 @@
 const NotesPage = () => {
-  return <div>NotesPage</div>;
+  return <div className="w-[50%] mx-auto">NotesPage</div>;
 };
 
 export default NotesPage;
-
